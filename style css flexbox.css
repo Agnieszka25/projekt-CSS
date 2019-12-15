@@ -1,0 +1,40 @@
+.nawigacja ul{
+    list-style-type: none;
+    
+}
+
+.nawigacja ul li{
+    margin: 10px;
+    color: blue;
+}
+
+.nawigacja ul li hover {
+
+    color:blue;
+}
+
+/* media screen ustawia teksty obok siebie*/
+
+@media screen and (min-width: 768px) {
+    nav ul {
+        display: flex;
+    }
+
+
+}
+
+@media screen and (min-width:768px) {
+    column column-1 {
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+    }
+
+    column column-2 {
+        display: flex;
+    }
+
+    column column-3 {
+        display: flex;
+    }
+}
